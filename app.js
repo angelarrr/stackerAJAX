@@ -113,6 +113,7 @@ var getUnanswered = function(tags) {
 	});
 };
 
+// get top answerers function
 var getTopAnswerers = function(tag) {
 	// parameters to pass in our request
 	var request ={
@@ -139,5 +140,3 @@ var getTopAnswerers = function(tag) {
 		$('.search-results').append(errorElem);
 	});
 };
-
-
